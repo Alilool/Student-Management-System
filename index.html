@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inputs">
+            <h1>Student Management System</h1>
+            <input id="input" type="text" placeholder="Enter a name...">
+            <button id="add">Add Student</button>
+            <p id="error">Please enter a valid name</p>
+            <div>
+                <button id="revers">Reverse</button>
+                <button id="sortByName">Sort by Name</button>
+            </div>
+            <div>
+                <button class="gradSort" id="graduetedStu">Graduted students</button>
+                <button class="gradSort" id="unGraduetedStu">Ungraduted students</button><br>
+                <button class="gradSort" id="showAll">Show all</button>
+                <input type="text" id="search" placeholder="Search....">
+            </div>
+        </div>
+        <div>
+            <ul id="students">
+            </ul>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
